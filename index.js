@@ -34,7 +34,7 @@ const startY = (canvas.height - destTileHeight * n) / 2;
         }
     }
     copy[n-1][n-1] = 0;
-    let numberOfShuffles = n;
+    let numberOfShuffles = n*100;
     let pos = [n - 1, n - 1];
     
     for(i=0;i<numberOfShuffles;i+=1){
